@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7AA4A8"
+    android:background="#191818"
     tools:context=".MainActivity">
 
     <!-- This text view is used to show the
@@ -17,7 +16,7 @@
         android:layout_marginStart="27dp"
         android:layout_marginEnd="27dp"
         android:layout_marginBottom="25dp"
-        android:background="#A8BDD1"
+        android:background="#F7F8FA"
         android:gravity="center_vertical|center_horizontal"
         android:hint="Enter Your Text"
         android:padding="20dp"
@@ -92,6 +91,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        android:background="#98F6FF"
         android:hint="Your Message"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/ciphEdt"
@@ -109,6 +109,7 @@
         android:layout_marginStart="29dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="17dp"
+        android:background="#98F6FF"
         android:hint="Cipher Text"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/key_dt"
@@ -125,6 +126,7 @@
         android:layout_marginStart="29dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="21dp"
+        android:background="#98F6FF"
         android:hint="Key"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/btndecrypt"

@@ -11,11 +11,10 @@ public class Encrypt_Decrypt {
         private static int index_s_t_l;
         private static String plainTxt;
         private static String cipherTxt;
-        private static String finalTxt;
 
         // code for encryption
-        public static String encrypt1(String plaintext, int encrptionKey) {
-            reset();
+        public static String encrypt(String plaintext, int encrptionKey) {
+            private static String finalTxt;
             // plaintext is converted to uppercase
             // so that it is easy to convert according
             // to Caesar Cipher algorithm
@@ -48,7 +47,7 @@ public class Encrypt_Decrypt {
 
         // code for decryption
         public static String decrypt1(String ciphertext, int decryptionKey) {
-            reset();
+
             ciphertext = ciphertext.toUpperCase();
             // using a for loop the use index and
             // change text with help of it
@@ -75,10 +74,11 @@ public class Encrypt_Decrypt {
             return finalTxt;
         }
 
-        // method to reset the text
-        // in the output textview
-        private static void reset() {
-            finalTxt = "";
-        }
+//
+//        // method to reset the text
+//        // in the output textview
+//        private static void reset() {
+//            finalTxt = "";
+//        }
 
 }
